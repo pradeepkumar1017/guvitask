@@ -1,11 +1,11 @@
 import random
 
 strs = ['1','2','3','4','5']
-counts = 0
+count = 0
 string = random.choice(strs)
 
 for i in range(5):
-    c = input('Enter a character: ')
+    c = input('Enter a number: ')
     if c in string and c!='':
         print('Good')
         counts = count + 1
